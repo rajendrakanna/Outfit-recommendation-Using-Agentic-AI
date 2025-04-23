@@ -5,7 +5,7 @@ from agno.models.anthropic.claude import Claude
 from agno.tools.duckduckgo import DuckDuckGoTools
 
 agent = Agent(
-    model=Claude(id="claude-3-5-sonnet-20241022", api_key="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"),
+    model=Claude(id="claude-3-5-sonnet-20241022", api_key="Your_api_key"),
     tools=[DuckDuckGoTools()],
     markdown=True
 )
